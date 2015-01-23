@@ -1,6 +1,7 @@
 
 
 // Basic Drawing Tool
+// System Variables (mouseX, mouseY, pmouseX, pmouseY)
 
 void setup(){
   size(300, 300);
