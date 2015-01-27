@@ -31,14 +31,5 @@ void draw(){
   posy = posy + incrementy;
   ellipse(posx, posy, 5, 5);
 
-  
 }
 
-void keyPressed(){
-  
-  // when space bar is pressed, all is erased
-  if (key == ' '){
-    background(200); 
-  }
-  
-}

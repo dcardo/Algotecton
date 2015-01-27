@@ -3,7 +3,7 @@
 // Daniel Cardoso Llach
 // Functions, OOP, Arrays
 
-int num_particles = 300;
+int num_particles = 500;
 Particle[] particles = new Particle[num_particles];
 
 void setup(){

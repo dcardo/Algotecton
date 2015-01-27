@@ -1,12 +1,9 @@
 
-// arc497c -- Computational Design Workshop
+// Algotecton
 // Daniel Cardoso Llach
-
-// Week 4 Functions
 // Interactive Parametric Column
 
 // default column dimensions
-
 int baseHeight = 10;
 int shaftHeight = 120;
 int capitalHeight = 10;
