@@ -14,7 +14,6 @@ for (int i  =0; i < width; i++){
   for (int j = 0; j < height; j++){
     stroke(j, i, j);
     point(i, j);
-    //rect(i*12, j*12, 10, 10);
   } 
 }
 
