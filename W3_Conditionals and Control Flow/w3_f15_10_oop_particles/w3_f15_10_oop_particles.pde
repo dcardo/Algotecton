@@ -26,12 +26,9 @@ void draw(){
   if ((posy > height)||(posy<0)){
     incrementy *= -1; 
   }
-  
   posx = posx + incrementx;
   posy = posy + incrementy;
   ellipse(posx, posy, 5, 5);
-
-  
 }
 
 void keyPressed(){
