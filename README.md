@@ -1,5 +1,3 @@
-Algorithmic Tectonics
-
 Weekly code samples, project examples, handouts and assignments for my Algorithmic Tectonics class (Spring 2015).
 
 Weeks 0-5: Designing.
