@@ -37,7 +37,7 @@ void draw(){
   // draw base square
   stroke(255, 0, 0);
   strokeWeight(1);
-  rect(0, 0, bboxW, bboxH);
+  //rect(0, 0, bboxW, bboxH);
 
   // change camera
 

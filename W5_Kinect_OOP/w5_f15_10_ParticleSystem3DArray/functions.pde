@@ -38,8 +38,8 @@ void display_data(){
 
   // information display 
   fill(255);
-  text("arc497c: Algorithmic tectonics", 30, 30);
-  fill(100);
+  text("Cube", 30, 30);
+  fill(200);
 
   text("Camera rotation: " + (int) eyex + ", " + (int) eyey + ", " + eyez, 30, 70);
   text("Number of particles: " + particles.length, 30, 85);
@@ -47,10 +47,11 @@ void display_data(){
   text("Bounciness: " + bounciness, 30, 115);
 
   // keys help
-  text("'a' -> add a particle  ", 600, 70);
-  text("'s' -> removes a particle  ", 600, 85);
-  text("'r' -> toggles camera rotation  ", 600, 100);
-  text("'g' -> toggles gravity  ", 600, 115);
+  text("'a' -> add a particle  ", 30, 500);
+  text("'s' -> removes a particle  ", 30, 515);
+  text("'c' -> toggles connections  ", 30, 530);
+  text("'r' -> toggles camera rotation  ", 30, 545);
+  text("'g' -> toggles gravity  ", 30, 560);
 }
 
 int getWheel(){

@@ -6,14 +6,14 @@ int h = 600;	// size of window
 
 // line weights
 
-float bboxStrokeWeight = 0.25;
+float bboxStrokeWeight = 0.5;
 float connectStrokeWeight = 1;
 
 // colors
 
 color connectStrokeColor = color (255, 255, 0); 
-color backgroundColor = color(0);
-color wireframeColor = color(200);
+color backgroundColor = color(124,124,124);
+color wireframeColor = color(255);
 color particleColor = color(255);
 
 
@@ -64,21 +64,7 @@ boolean camerarotate = true;  // is the camera rotating around object
 
 PFont myFont;
 String f = "Verdana";
-float fsize = 9;
-
-// GUI settings
-
-PFont pfont = createFont("Verdana",20, false); // use true/false for smooth/no-smooth
-ControlFont font = new ControlFont(pfont,255);
-
-ControlP5 cp5;
-int knobValue = 100;
-Knob myKnobA;
-Knob myKnobB;
-Range range;
-Slider date_slider;
-
-CheckBox cb; // checkbox
+float fsize = 10;
 
 int testvar = 0;
 
